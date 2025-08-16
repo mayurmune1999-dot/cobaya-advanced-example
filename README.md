@@ -20,3 +20,33 @@ It includes custom likelihoods and run scripts to demonstrate how to extend Coba
 Install dependencies:
 ```bash
 pip install cobaya numpy matplotlib
+Running the examples
+
+From inside the repository folder:
+
+# Example run
+python run_xy.py
+
+# Another example
+python run_rtheta.py
+
+
+The scripts will run Cobaya and produce MCMC chains and plots.
+
+Output
+
+Chains are saved in the chains/ directory.
+
+Plots (e.g., triangle plots of posteriors) are saved as .png files.
+
+Example plot:
+
+<!-- (Add this later when you save a plot) -->
+
+Next Steps
+
+Extend the likelihood to cosmological datasets.
+
+Add YAML equivalents of the run scripts.
+
+Document results in a docs/ folder.
